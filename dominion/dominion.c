@@ -1460,7 +1460,7 @@ int village(struct gameState state, currentPlayer)
       drawCard(currentPlayer, state);
 			
       //+2 Actions
-      state->numActions = state->numActions + 2;
+      state->numActions = state->numActions;
 			
       //discard played card from hand
       discardCard(handPos, currentPlayer, state, 0);
@@ -1486,7 +1486,7 @@ int mine(struct gameState state, currentPlayer)
 	  return -1;
 	}
 
-      gainCard(choice2, state, 2, currentPlayer);
+      gainCard(choice2, state, 2, currentPlayer-1);
 
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
