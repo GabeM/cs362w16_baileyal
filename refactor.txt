@@ -1,0 +1,11 @@
+the cards i refactored are:
+
+feast
+
+council_room
+
+smithy
+
+village
+
+mine
