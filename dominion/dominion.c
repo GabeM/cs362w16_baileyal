@@ -7,12 +7,12 @@
 
 
 int council_room_card(struct gameState *state, int currentPlayer, int handPos);
-int feast_card( struct gameState *state, int currentPlayer);
+int feast_card( struct gameState *state, int currentPlayer, int choice1, int handPos);
 int smithy_card(struct gameState *state, int currentPlayer, int handPos);
-int village_card(struct gameState state, int currentPlayer, int handPos);
-int mine_card(struct gameState state, int currentPlayer, int handPos);
+int village_card(struct gameState *state, int currentPlayer, int handPos);
+int mine_card(struct gameState *state, int currentPlayer, int handPos, int choice1, int choice2);
 
-my_assert(bool test, char str[], int numAssert);
+void my_assert(int test, char str[], int numAssert);
 
 int compare(const void* a, const void* b) {
   if (*(int*)a > *(int*)b)
@@ -726,7 +726,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 	
     case feast:
 		
-		return feast_card(state, currentPlayer, handPos);
+		return feast_card( state, currentPlayer, choice1, handPos);
 	/*
       //gain card with cost up to 5
       //Backup hand
@@ -871,7 +871,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 		
     case village:
 	
-		return village(state, currentPlayer, handPos);
+		return village_card(state, currentPlayer, handPos);
 	
 	/*
       //+1 Card
@@ -1368,6 +1368,11 @@ int updateCoins(int player, struct gameState *state, int bonus)
 
 int council_room_card(struct gameState *state, int currentPlayer, int handPos)
 {
+	int i;
+	int j;
+	int k;
+	int x;
+	
 	 //+4 Cards
       for (i = 0; i < 4; i++)
 	{
@@ -1392,8 +1397,13 @@ int council_room_card(struct gameState *state, int currentPlayer, int handPos)
       return 0;
 }
 
-int feast_card( struct gameState *state, int currentPlayer)
+int feast_card( struct gameState *state, int currentPlayer, int choice1, int handPos)
 {
+	int i;
+	int j;
+	int k;
+	int x;
+	
 	 int temphand[MAX_HAND]; // moved above the if statement;
 	 
 	       //gain card with cost up to 5
@@ -1451,6 +1461,11 @@ int feast_card( struct gameState *state, int currentPlayer)
 	
 int smithy_card(struct gameState *state, int currentPlayer, int handPos)
 {
+	int i;
+	int j;
+	int k;
+	int x;
+	
 	//+3 Cards
      for (i = 0; i < 3; i++)
 	{
@@ -1463,8 +1478,13 @@ int smithy_card(struct gameState *state, int currentPlayer, int handPos)
 }
 
 
-int village_card(struct gameState state, int currentPlayer, int handPos)
+int village_card(struct gameState *state, int currentPlayer, int handPos)
 {
+	int i;
+	int j;
+	int k;
+	int x;
+	
 	//+1 Card
       drawCard(currentPlayer, state);
 			
@@ -1476,8 +1496,12 @@ int village_card(struct gameState state, int currentPlayer, int handPos)
       return 0;
 }
 
-int mine(struct gameState state, int currentPlayer, int handPos, int choice1, int choice2)
+int mine_card(struct gameState *state, int currentPlayer, int handPos, int choice1, int choice2)
 {
+	int i;
+	int j;
+	int k;
+	int x;
 	  j = state->hand[currentPlayer][choice1];  //store card we will trash
 
       if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
@@ -1511,7 +1535,7 @@ int mine(struct gameState state, int currentPlayer, int handPos, int choice1, in
 	}
 }
 
-void my_assert(bool test, char str[], int numAssert)
+void my_assert(int test, char str[], int numAssert)
 {
 	if(!test)
 	{
