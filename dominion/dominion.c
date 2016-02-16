@@ -67,10 +67,10 @@ int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
     {
       for (j = 0; j < 10; j++)
         {
-	  if (j != i && kingdomCards[j] == kingdomCards[i])
-	    {
-	      return -1;
-	    }
+			if (j != i && kingdomCards[j] == kingdomCards[i])
+			{
+				return -1;
+			}
         }
     }
 
@@ -112,27 +112,27 @@ int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
   state->supplyCount[gold] = 30;
 
   //set number of Kingdom cards
-  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+	for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
     {
-      for (j = 0; j < 10; j++)           		//loop chosen cards
-	{
-	  if (kingdomCards[j] == i)
+		for (j = 0; j < 10; j++)           		//loop chosen cards
+		{
+		if (kingdomCards[j] == i)
 	    {
 	      //check if card is a 'Victory' Kingdom card
-	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
-		{
-		  if (numPlayers == 2){ 
-		    state->supplyCount[i] = 8; 
-		  }
-		  else{ state->supplyCount[i] = 12; }
-		}
-	      else
-		{
-		  state->supplyCount[i] = 10;
-		}
-	      break;
+			if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+			{
+				if (numPlayers == 2){ 
+					state->supplyCount[i] = 8; 
+				}
+				else{ state->supplyCount[i] = 12; }
+			}
+			else
+			{
+				state->supplyCount[i] = 10;
+			}
+			break;
 	    }
-	  else    //card is not in the set choosen for the game
+		else    //card is not in the set choosen for the game
 	    {
 	      state->supplyCount[i] = -1;
 	    }
@@ -552,7 +552,7 @@ int drawCard(int player, struct gameState *state)
    
     if (DEBUG){//Debug statements
       printf("Deck count now: %d\n", state->deckCount[player]);
-    }
+    } 
     
     state->discardCount[player] = 0;
 
@@ -676,25 +676,25 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
-      while(drawntreasure<2){
-	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
-	  shuffle(currentPlayer, state);
-	}
-	drawCard(currentPlayer, state);
-	cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-	if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
-	  drawntreasure++;
-	else{
-	  temphand[z]=cardDrawn;
-	  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-	  z++;
-	}
-      }
-      while(z-1>=0){
-	state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-	z=z-1;
-      }
-      return 0;
+		while(drawntreasure<2){
+			if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
+				shuffle(currentPlayer, state);
+			}
+			drawCard(currentPlayer, state);
+			cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+			if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+				drawntreasure++;
+			else{
+				temphand[z]=cardDrawn;
+				state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+				z++;
+			}
+		}
+		while(z-1>=0){
+			state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+			z=z-1;
+		}
+		return 0;
 			
     case council_room:
 	
