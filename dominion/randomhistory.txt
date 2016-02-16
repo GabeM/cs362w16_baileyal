@@ -1,0 +1,22 @@
+For randomadventurertest
+
+	the original randomadventurertest.c wasn't a very good test. For one it didn't even have any way to determine if it work. 
+	Another thing is that the number of players can be 1 or 0, but the initializeGame function will simply return 1 if this is true.
+
+
+	So to change those things I added a my_assert to the end to see if the card had increased the players hand count.
+	
+	
+	after running it I realized that if you just the deckCount to 0, this will in effect remove those cards from the game. 
+	So instead I added all the cards to the discard.
+	
+For randomtestcard.c
+	
+	I chose the council_room card
+	
+	For this card i followed a similar skeleton code as the randomadventurertest, so I had to fix the same problems I encountered.
+	
+	I added an oracle that checks if all the players gained at least one card in their hand and then if the player who used the card
+	had 4 more cards in their hand and 1 more buy
+	
+	
