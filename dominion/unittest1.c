@@ -4,10 +4,12 @@
 #include <stdio.h>
 #include <assert.h>
 #include "rngs.h"
-#include "dominion.c"
+
 
 #define DEBUG 0
 #define NOISY_TEST 1
+
+
 
 
 //testing the numHandsCards func
@@ -22,11 +24,12 @@ int main(int argc, char **argv)
 	
 	game.handCount[0] = 3;
 	
-	numHandsCards(&game);
+	r = numHandCards(&game);
 	
-	my_assert(r == 3, "handCount didn't return the right number, i.e. 3", assertCount);
+	my_assert(r == 3, "numHandCards didn't return 3", &assertCount);
+	my_assert(game.whoseTurn == 0, "whoseTurn wasn't still 0", &assertCount);
 	
-	my_assert(game.handCount[0] == 3, "handCount wasn't still 0", assertCount);
+	my_assert(game.handCount[0] == 3, "handCount wasn't still 0", &assertCount);
 	printf("number of asserts for numHandsCards test: %i\n", assertCount);
 }
 	

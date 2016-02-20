@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	int assertCount = 0;
 	int i;
 	
-	
+	//printf("start test\n");
 	
 	game.numPlayers = 1;
 	game.deck[0][0] = copper;
@@ -26,18 +26,24 @@ int main(int argc, char **argv)
 	game.deckCount[0] = 3;
 	game.handCount[0] = 1;
 	game.hand[0][0] = smithy;
-
-	r = cardEffect(smithy, 0, 0, 0, game, 0, 0);
+	game.playedCardCount = 0;
 	
-	my_assert( r == 0, "smithy didn't return 0", assertCount);
-	my_assert( game.deckCount == 0, "deckCount doesn't equal 0", assertCount);
-	my_assert( game.handCount == 3, "handCount doesn't equal 0", assertCount);
+	
+	//printf("after setup\n");
+
+	r = cardEffect(smithy, 0, 0, 0, &game, 0, 0);
+	
+	//printf("after cardEffect\n");
+	
+	my_assert( r == 0, "smithy didn't return 0", &assertCount);
+	my_assert( game.deckCount[0] == 0, "deckCount doesn't equal 0", &assertCount);
+	my_assert( game.handCount[0] == 3, "handCount doesn't equal 0", &assertCount);
 	for( i = 0; i<3; i++)
 	{
-		my_assert( game.hand[0][i] == copper, "player hand didn't have all copper", assertCount);
+		my_assert( game.hand[0][i] == copper, "player hand didn't have all copper", &assertCount);
 	}
 	
-	printf("number of asserts for smithy card test: %i\n", assertCount);
+	printf("\nnumber of asserts for smithy card test: %i\n\n", assertCount);
 		
-	
+	return 0;
 }

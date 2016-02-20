@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#define MAX_TESTS 12
+#define MAX_TESTS 10
 
 //This randomly tests council room
 
@@ -16,13 +16,13 @@ int main() {
 	  int k[10] = {adventurer, council_room, embargo, village, minion, mine, cutpurse, 
 	       sea_hag, tribute, smithy};
 
-	  int i, j, l, n, players, player, handCount, deckCount, seed, address;
+	  int i, j, l, n, players, player = 0, handCount, deckCount, seed, address, numBuys, r, newHandCount;
 	  //struct gameState state;
 	  struct gameState state;
 	  struct gameState stat;
 	  struct gameState sta;
 
-	  printf("Running Random Card Test for Smithy\n");
+	  printf("Running Random Card Test for council_room\n");
 
 	  /*
 										--- Author's Note ---
@@ -34,62 +34,80 @@ int main() {
 	  This program wouldn't work without the printouts, oddly enough.
 	  */
 
-	for (i = 0; i < MAX_TESTS; i++) {
-
-		players = (rand() % 2) + 2; 
-		player = 1;
+		for (i = 0; i < MAX_TESTS; i++) {
 		
-		seed = rand();		//pick random seed
-		
-		initializeGame(players, k, seed, &state);	//initialize Gamestate
+			players = 4; //(rand() % 2) + 2; 
+			player = 0;
+			
+			
+			seed = rand();		//pick random seed
+			
+			initializeGame(players, k, seed, &state);	//initialize Gamestate
 
-		//Initiate valid state variables
-		//state.deckCount[player] = rand() % MAX_DECK; //Pick random deck size out of MAX DECK size
-		//state.discardCount[player] = rand() % MAX_DECK;
-		//state.handCount[player] = rand() % MAX_HAND;
+			//Initiate valid state variables
+			//state.deckCount[player] = rand() % MAX_DECK; //Pick random deck size out of MAX DECK size
+			//state.discardCount[player] = rand() % MAX_DECK;
+			//state.handCount[player] = rand() % MAX_HAND;
+			
+			newHandCount = rand() % 4 + 1; //there must always be at least 1 card because it is adventurer
+			
+			for(j=5; j > newHandCount; j--)
+			{	
+				state.discard[player][ state.discardCount[player] ] = state.hand[player][j];
+				state.hand[player][j] = -1;
+				state.handCount[player] -= 1;
+				state.discardCount[player]++;
+			}
 
-		  
-		//Copy state variables
-		handCount = state.handCount[player];
-		deckCount = state.deckCount[player];
-		numBuys = state.numBuys;
+			  
+			//Copy state variables
+			handCount = state.handCount[player];
+			deckCount = state.deckCount[player];
+			numBuys = state.numBuys;
 
-		printf("%d\n", i);
-		
-		//1 in 3 chance of making empty deck for coverage
-		if (seed % 3 == 0) {
-		
-			for(j=0; i<players; i++)
-			{
-				for (l = 0; i < state.discardCount[j];i++) //move all the deck to the discard pile
+			
+			
+			//1 in 3 chance of making empty deck for coverage
+			if (seed % 3 == 0) {
+			
+				for (l = 0; l < state.discardCount[j]; l++) //move all the deck to the discard pile
 				{
-					state.discard[player][discardCount] = state.deck[player][l];
+					state.discard[player][ state.discardCount[player] ] = state.deck[player][l];
 					state.deck[player][l] = -1;
 					state.deckCount[player]--;
-					state.discardCount++;
+					state.discardCount[player]++;
 				}
+				
 			}
-		}
+			
 
-		printf("%dB\n", i);
-		cardEffect(council_room, 1, 1, 1, &state);		//Run adventurer card
-		
-		for(j=0; j<players; j++)
-		{
-			my_assert(state.handCount[j] >= (handCount + 1), "one of the players did not have 1 more cards in hand", assertCount);
+			
+			state.whoseTurn = player;
+			state.hand[player][0] = 8;
+			
+			
+			r = playCard(player, 1, 1, 1, &state);		//Run adventurer card
+			
+			
+			my_assert( r == 0, "r wasn't 0", &assertCount);
+			
+			for(j=1; j<players; j++)
+			{
+				my_assert(state.handCount[j] == 1, "one of the players did not have 1 more cards in hand", &assertCount);
+			}
+			
+			my_assert(state.handCount[player] == (handCount - 1 + 4), "player did not have 4 more cards in hand", &assertCount);
+			my_assert(state.numBuys == (numBuys + 1), "player did correct number of buys", &assertCount);
+			
+			
+			  
+			  
 		}
 		
-		my_assert(state.handCount[player] == (handCount + 4), "player did not have 4 more cards in hand", assertCount);
-		my_assert(state.numBuys[player] == (numBuys + 1), "player did not have 4 more cards in hand", assertCount);
-		
-		
-		printf("assertCount: %i \n", assertCount); 
-		  
-		  
-		}
+		printf("number of asserts for council_room : %i \n", assertCount);
 	
-	printf("test completed\n");
+		printf("test completed\n");
 		
-	return 0;
+		return 0;
 		
-	  }
+	}

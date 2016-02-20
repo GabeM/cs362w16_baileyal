@@ -24,17 +24,17 @@ int main(int argc, char **argv)
 	game.handCount[0] = 1;
 	game.hand[0][0] = great_hall;
 	game.numActions = 1;
+	game.playedCardCount = 0;
 
-	r = cardEffect(great_hall, 0, 0, 0, game, 0, 0);
+	r = cardEffect(great_hall, 0, 0, 0, &game, 0, 0);
 	
-	my_assert( r == 0, "great_hall didn't return 0", assertCount);
-	my_assert( game.deckCount == 0, "deckCount doesn't equal 0", assertCount);
-	my_assert( game.handCount == 1, "handCount doesn't equal 1", assertCount);
-	my_assert( game.hand[0][0] == copper, "player hand didn't have copper", assertCount);
-	my_assert( game.numActions == 1, "numActions doesn't equal 1", assertCount);
+	my_assert( r == 0, "great_hall didn't return 0", &assertCount);
+	my_assert( game.deckCount[0] == 0, "deckCount doesn't equal 0", &assertCount);
+	my_assert( game.handCount[0] == 1, "handCount doesn't equal 1", &assertCount);
+	my_assert( game.hand[0][0] == copper, "player hand didn't have copper", &assertCount);
+	my_assert( game.numActions == 2, "numActions doesn't equal 2", &assertCount);	
 	
-	
-	printf("number of asserts for great_hall card test: %i\n", assertCount);
+	printf("\nnumber of asserts for great_hall card test: %i\n\n", assertCount);
 		
 	
 }

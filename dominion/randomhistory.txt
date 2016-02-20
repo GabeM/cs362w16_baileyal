@@ -10,6 +10,11 @@ For randomadventurertest
 	after running it I realized that if you just the deckCount to 0, this will in effect remove those cards from the game. 
 	So instead I added all the cards to the discard.
 	
+	For the adventurer random test, to test the effectiveness of the test, I removed certain lines of code, such 
+	as the the shuffle call, the drawCard call, the drawnTreasure increment, to see if my test would catch them. 
+	It caught all but the shuffle function, and upon further inspection, the shuffle call is not really impotant 
+	because drawCard will also call shuffle.
+	
 For randomtestcard.c
 	
 	I chose the council_room card
@@ -17,6 +22,9 @@ For randomtestcard.c
 	For this card i followed a similar skeleton code as the randomadventurertest, so I had to fix the same problems I encountered.
 	
 	I added an oracle that checks if all the players gained at least one card in their hand and then if the player who used the card
-	had 4 more cards in their hand and 1 more buy
+	had 4 more cards in their hand and 1 more buy.
+	
+	For the Council room, I removed the drawCard functions for both the user and the other players as well as changing the parameters 
+	for the for loops and the test found all of these.
 	
 	

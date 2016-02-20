@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#define MAX_TESTS 12
+#define MAX_TESTS 10
 
 //This randomly tests Adventurer
 
@@ -15,6 +15,7 @@ int main() {
 		sea_hag, tribute, smithy};
 
 	int i, j, l, n, players, player, handCount, deckCount, seed, address;
+	int assertCount = 0, newHandCount, r;
 	//struct gameState state;
 	struct gameState state;
 	struct gameState stat;
@@ -35,7 +36,7 @@ int main() {
 		players = (rand() % 2) + 2; //make the number of players either 2, 3, or 4 otherwise the game won't initialize correctly
 		player = 1;
 		
-	   seed = rand();		//pick random seed
+		seed = rand();		//pick random seed
 		
 	   initializeGame(players, k, seed, &state);	//initialize Gamestate 
 
@@ -43,35 +44,56 @@ int main() {
 		
 		//state.deckCount[player] = rand() % MAX_DECK; //Pick random deck size out of MAX DECK size		
 		//state.discardCount[player] = rand() % MAX_DECK;
-		//state.handCount[player] = rand() % MAX_HAND;
+		
+		newHandCount = rand() % 4 + 1; //there must always be at least 1 card because it is adventurer
+		
+		
+		for(j=5; j > newHandCount; j--)
+		{
+			state.discard[player][ state.discardCount[player] ] = state.hand[player][j];
+			state.hand[player][j] = -1;
+			state.handCount[player] -= 1;
+			state.discardCount[player]++;
+		}
+		
 
 
 		  //Copy state variables
 		handCount = state.handCount[player];
 		deckCount = state.deckCount[player];
+		
+		//printf("handCount before: %i \n", handCount);
 
+		
 		//1 in 3 chance of making empty deck for coverage
 		if (seed % 3 == 0) {
 		
-			for(j=0; i<players; i++)
+			for (j = 0; j < state.deckCount[player];j++) //move all the deck to the discard pile
 			{
-				for (k = 0; i < state.discardCount[j];i++) //move all the deck to the discard pile
-				{
-					state.discard[player][discardCount] = state.deck[player][k];
-					state.deck[player][k] = -1;
-					state.deckCount[player]--;
-					state.discardCount++;
-				}
+				state.discard[player][ state.discardCount[player] ] = state.deck[player][j];
+				state.deck[player][j] = -1;
+				state.deckCount[player] -= 1;
+				state.discardCount[player]++;
 			}
+			
 		}
 		
-		cardEffect(adventurer, 1, 1, 1, &state);		//Run adventurer card
 		
-		my_assert(state.deckCount[player] == (handCount + 2), "player did not have to more cards", numAsserts);
+		state.hand[player][0] = adventurer; //give the player adventurer
+		state.whoseTurn = player;
 		
-		printf("i: %i numAsserts: %i \n", i, numAsserts);
+		
+		r = playCard(0, 1, 1, 1, &state);		//Run adventurer card
+		
+		//printf("new hand: %i  old hand: %i \n", state.handCount[player], handCount);
+		
+		my_assert( r == 0, "playCard didn't return 0", &assertCount);
+		my_assert(state.handCount[player] == (handCount + 2 ), "player did not have correct number of cards", &assertCount);
+		
 		
 	}
+		
+	printf("number of asserts for adventurer random test: %i \n", assertCount);
 	
 	
 	printf("test complete\n");

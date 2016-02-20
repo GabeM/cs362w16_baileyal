@@ -1,0 +1,9 @@
+Bugs
+	the bug I found in the village function is actually the one I introduced where the funciton doesn't increase
+	the number of actions, it just sets the numActions to equal numActions. The bug in Baron is because there is 
+	no discardCard call, so the card being used isn't discarded. I couldn't find any bugs in great hall or smithy
+	
+Coverage
+	the coverage for these tests is very minimal, since it really only test a handful of functions and the cards 
+	only call a handful of other functions. This would suggest that the tests are not great, as far as the whole 
+	game is concerned.

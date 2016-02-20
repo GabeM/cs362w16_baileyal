@@ -25,17 +25,18 @@ int main(int argc, char **argv)
 	game.handCount[0] = 1;
 	game.hand[0][0] = village;
 	game.numActions = 1;
+	game.playedCardCount = 0;
 
-	r = cardEffect(village, 0, 0, 0, game, 0, 0);
+	r = cardEffect(village, 0, 0, 0, &game, 0, 0);
 	
-	my_assert( r == 0, "village didn't return 0", assertCount);
-	my_assert( game.deckCount == 0, "deckCount doesn't equal 0", assertCount);
-	my_assert( game.handCount == 1, "handCount doesn't equal 1", assertCount);
-	my_assert( game.numActions == 2, "handCount doesn't equal 1", assertCount);
-	my_assert( game.hand[0][0] == copper, "player hand didn't have copper", assertCount);
+	my_assert( r == 0, "village didn't return 0", &assertCount);
+	my_assert( game.deckCount[0] == 0, "deckCount doesn't equal 0", &assertCount);
+	my_assert( game.handCount[0] == 1, "handCount doesn't equal 1", &assertCount);
+	my_assert( game.numActions == 2, "numActions doesn't equal 2", &assertCount);
+	my_assert( game.hand[0][0] == copper, "player hand didn't have copper", &assertCount);
 	
 	
-	printf("number of asserts for smithy card test: %i\n", assertCount);
+	printf("\nnumber of asserts for village card test: %i\n\n", assertCount); 
 		
 	
 }
