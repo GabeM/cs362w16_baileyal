@@ -1,0 +1,5 @@
+I was confused about how this was supposed to be done as both tests were random and the things we output were different,
+but the resulsts seemed to be similar in that they never played cards they weren't supposed to or had any bogus values.
+
+because of the difference we had in displayed information and the randomness of the tests, I don't think the differences 
+had much value by themselves.

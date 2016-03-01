@@ -1,0 +1,1428 @@
+Starting game.
+turn: 0 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 4
+Player 1: 2
+Player 2: 0
+turn: 1 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 4
+Player 1: 4
+Player 2: 1
+turn: 2 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 5
+Player 1: 4
+Player 2: 3
+turn: 3 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 5
+Player 1: 5
+Player 2: 3
+turn: 4 
+player 1 turn
+player 1 bought feast
+player 1: endTurn
+Player 0: 5
+Player 1: 5
+Player 2: 5
+turn: 5 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 1
+Player 1: 5
+Player 2: 5
+turn: 6 
+player 0 turn
+player 0 bought duchy
+player 0 bought copper
+player 0: endTurn
+Player 0: 6
+Player 1: 2
+Player 2: 5
+turn: 7 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 6
+Player 1: 3
+Player 2: 2
+turn: 8 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 8
+Player 1: 3
+Player 2: 3
+turn: 9 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 8
+Player 1: 4
+Player 2: 3
+turn: 10 
+player 1 turn
+player 1 bought duchy
+player 1 bought copper
+player 1: endTurn
+Player 0: 8
+Player 1: 8
+Player 2: 4
+turn: 11 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 4
+Player 1: 8
+Player 2: 6
+turn: 12 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 6
+Player 1: 2
+Player 2: 6
+turn: 13 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 6
+Player 1: 6
+Player 2: 2
+turn: 14 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 8
+Player 1: 6
+Player 2: 3
+turn: 15 
+player 0 turn
+player 0 bought duchy
+player 0 bought copper
+player 0: endTurn
+Player 0: 15
+Player 1: 10
+Player 2: 3
+turn: 16 
+player 1 turn
+player 1 bought feast
+player 1: endTurn
+Player 0: 15
+Player 1: 11
+Player 2: 4
+turn: 17 
+player 2 turn
+player 2 bought duchy
+player 2 bought copper
+player 2: endTurn
+Player 0: 3
+Player 1: 11
+Player 2: 8
+turn: 18 
+player 0 turn
+player 0 bought duchy
+player 0 bought copper
+player 0: endTurn
+Player 0: 9
+Player 1: 0
+Player 2: 8
+turn: 19 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 9
+Player 1: 3
+Player 2: 0
+turn: 20 
+player 2 turn
+player 2: endTurn
+Player 0: 13
+Player 1: 3
+Player 2: 4
+turn: 21 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 19
+Player 1: 7
+Player 2: 4
+turn: 22 
+player 1 turn
+player 1 bought duchy
+player 1 bought copper
+player 1: endTurn
+Player 0: 19
+Player 1: 14
+Player 2: 7
+turn: 23 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 21
+Player 1: 14
+Player 2: 10
+turn: 24 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 17
+Player 1: 5
+Player 2: 10
+turn: 25 
+player 1 turn
+player 1 bought estate
+player 1 bought copper
+player 1: endTurn
+Player 0: 17
+Player 1: 9
+Player 2: 5
+turn: 26 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 0
+Player 1: 9
+Player 2: 8
+turn: 27 
+player 0 turn
+player 0: endTurn
+Player 0: 6
+Player 1: 10
+Player 2: 8
+turn: 28 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 6
+Player 1: 14
+Player 2: 9
+turn: 29 
+player 2 turn
+player 2 bought duchy
+player 2 bought copper
+player 2: endTurn
+Player 0: 12
+Player 1: 14
+Player 2: 14
+turn: 30 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 18
+Player 1: 17
+Player 2: 14
+turn: 31 
+player 1 turn
+player 1: endTurn
+Player 0: 18
+Player 1: 12
+Player 2: 2
+turn: 32 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 23
+Player 1: 12
+Player 2: 7
+turn: 33 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 22
+Player 1: 1
+Player 2: 7
+turn: 34 
+player 1 turn
+player 1: endTurn
+Player 0: 22
+Player 1: 5
+Player 2: 8
+turn: 35 
+player 2 turn
+player 2 bought duchy
+player 2 bought copper
+player 2: endTurn
+Player 0: 4
+Player 1: 5
+Player 2: 15
+turn: 36 
+player 0 turn
+player 0 bought duchy
+player 0 bought copper
+player 0: endTurn
+Player 0: 11
+Player 1: 10
+Player 2: 15
+turn: 37 
+player 1 turn
+player 1 bought feast
+player 1: endTurn
+Player 0: 11
+Player 1: 11
+Player 2: 23
+turn: 38 
+player 2 turn
+player 2: endTurn
+Player 0: 15
+Player 1: 11
+Player 2: 20
+turn: 39 
+player 0 turn
+player 0 bought duchy
+player 0 bought copper
+player 0: endTurn
+Player 0: 21
+Player 1: 14
+Player 2: 20
+turn: 40 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 21
+Player 1: 19
+Player 2: 5
+turn: 41 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 21
+Player 1: 19
+Player 2: 9
+turn: 42 
+player 0 turn
+player 0 bought gold
+player 0 bought copper
+player 0: endTurn
+Player 0: 24
+Player 1: 2
+Player 2: 9
+turn: 43 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 24
+Player 1: 5
+Player 2: 14
+turn: 44 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 7
+Player 1: 5
+Player 2: 21
+turn: 45 
+player 0 turn
+player 0 bought estate
+player 0 bought copper
+player 0: endTurn
+Player 0: 10
+Player 1: 6
+Player 2: 21
+turn: 46 
+player 1 turn
+player 1: endTurn
+Player 0: 10
+Player 1: 10
+Player 2: 22
+turn: 47 
+player 2 turn
+player 2 bought duchy
+player 2 bought copper
+player 2: endTurn
+Player 0: 13
+Player 1: 10
+Player 2: 28
+turn: 48 
+player 0 turn
+player 0: endTurn
+Player 0: 19
+Player 1: 14
+Player 2: 28
+turn: 49 
+player 1 turn
+player 1 bought feast
+player 1: endTurn
+Player 0: 19
+Player 1: 16
+Player 2: 7
+turn: 50 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 25
+Player 1: 16
+Player 2: 11
+turn: 51 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 28
+Player 1: 3
+Player 2: 11
+turn: 52 
+player 1 turn
+player 1: endTurn
+Player 0: 28
+Player 1: 6
+Player 2: 13
+turn: 53 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 30
+Player 1: 6
+Player 2: 21
+turn: 54 
+player 0 turn
+player 0 bought duchy
+player 0 bought copper
+player 0: endTurn
+Player 0: 32
+Player 1: 9
+Player 2: 21
+turn: 55 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 32
+Player 1: 11
+Player 2: 27
+turn: 56 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 4
+Player 1: 11
+Player 2: 31
+turn: 57 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 8
+Player 1: 12
+Player 2: 31
+turn: 58 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 8
+Player 1: 14
+Player 2: 35
+turn: 59 
+player 2 turn
+player 2: endTurn
+Player 0: 12
+Player 1: 14
+Player 2: 31
+turn: 60 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 19
+Player 1: 17
+Player 2: 31
+turn: 61 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 19
+Player 1: 17
+Player 2: 7
+turn: 62 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 23
+Player 1: 17
+Player 2: 10
+turn: 63 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 27
+Player 1: 4
+Player 2: 10
+turn: 64 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 27
+Player 1: 11
+Player 2: 12
+turn: 65 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 36
+Player 1: 11
+Player 2: 18
+turn: 66 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 42
+Player 1: 14
+Player 2: 18
+turn: 67 
+player 1 turn
+player 1: endTurn
+Player 0: 42
+Player 1: 15
+Player 2: 22
+turn: 68 
+player 2 turn
+player 2: endTurn
+Player 0: 5
+Player 1: 15
+Player 2: 25
+turn: 69 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 14
+Player 1: 17
+Player 2: 25
+turn: 70 
+player 1 turn
+player 1 bought duchy
+player 1: endTurn
+Player 0: 14
+Player 1: 21
+Player 2: 31
+turn: 71 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 20
+Player 1: 21
+Player 2: 35
+turn: 72 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 21
+Player 1: 22
+Player 2: 35
+turn: 73 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 21
+Player 1: 32
+Player 2: 4
+turn: 74 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 23
+Player 1: 32
+Player 2: 13
+turn: 75 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 27
+Player 1: 6
+Player 2: 13
+turn: 76 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 27
+Player 1: 21
+Player 2: 17
+turn: 77 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 33
+Player 1: 21
+Player 2: 20
+turn: 78 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 40
+Player 1: 22
+Player 2: 20
+turn: 79 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 40
+Player 1: 28
+Player 2: 21
+turn: 80 
+player 2 turn
+player 2 bought gold
+player 2 bought copper
+player 2: endTurn
+Player 0: 6
+Player 1: 28
+Player 2: 25
+turn: 81 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 10
+Player 1: 32
+Player 2: 25
+turn: 82 
+player 1 turn
+player 1 bought duchy
+player 1: endTurn
+Player 0: 10
+Player 1: 33
+Player 2: 29
+turn: 83 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 17
+Player 1: 33
+Player 2: 36
+turn: 84 
+player 0 turn
+player 0 bought estate
+player 0 bought copper
+player 0: endTurn
+Player 0: 22
+Player 1: 41
+Player 2: 36
+turn: 85 
+player 1 turn
+player 1 bought feast
+player 1: endTurn
+Player 0: 22
+Player 1: 41
+Player 2: 6
+turn: 86 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 23
+Player 1: 41
+Player 2: 8
+turn: 87 
+player 0 turn
+player 0 bought province
+player 0 bought copper
+player 0: endTurn
+Player 0: 34
+Player 1: 44
+Player 2: 8
+turn: 88 
+player 1 turn
+player 1: endTurn
+Player 0: 34
+Player 1: 40
+Player 2: 11
+turn: 89 
+player 2 turn
+player 2 bought duchy
+player 2: endTurn
+Player 0: 38
+Player 1: 40
+Player 2: 15
+turn: 90 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 45
+Player 1: 2
+Player 2: 15
+turn: 91 
+player 1 turn
+player 1 bought duchy
+player 1: endTurn
+Player 0: 45
+Player 1: 2
+Player 2: 20
+turn: 92 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 4
+Player 1: 2
+Player 2: 25
+turn: 93 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 9
+Player 1: 4
+Player 2: 25
+turn: 94 
+player 1 turn
+player 1: endTurn
+Player 0: 9
+Player 1: 4
+Player 2: 30
+turn: 95 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 13
+Player 1: 4
+Player 2: 33
+turn: 96 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 23
+Player 1: 16
+Player 2: 33
+turn: 97 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 23
+Player 1: 40
+Player 2: 34
+turn: 98 
+player 2 turn
+player 2 bought duchy
+player 2: endTurn
+Player 0: 29
+Player 1: 40
+Player 2: 29
+turn: 99 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 32
+Player 1: 52
+Player 2: 29
+turn: 100 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 32
+Player 1: 54
+Player 2: 1
+turn: 101 
+player 2 turn
+player 2 bought province
+player 2 bought copper
+player 2: endTurn
+Player 0: 39
+Player 1: 54
+Player 2: 12
+turn: 102 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 45
+Player 1: 54
+Player 2: 12
+turn: 103 
+player 1 turn
+player 1: endTurn
+Player 0: 45
+Player 1: 56
+Player 2: 19
+turn: 104 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 53
+Player 1: 56
+Player 2: 26
+turn: 105 
+player 0 turn
+player 0: endTurn
+Player 0: 51
+Player 1: 6
+Player 2: 26
+turn: 106 
+player 1 turn
+player 1: endTurn
+Player 0: 51
+Player 1: 7
+Player 2: 27
+turn: 107 
+player 2 turn
+player 2 bought gold
+player 2 bought copper
+player 2: endTurn
+Player 0: 6
+Player 1: 7
+Player 2: 28
+turn: 108 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 13
+Player 1: 11
+Player 2: 28
+turn: 109 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 13
+Player 1: 12
+Player 2: 33
+turn: 110 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 14
+Player 1: 12
+Player 2: 41
+turn: 111 
+player 0 turn
+player 0 bought gold
+player 0 bought copper
+player 0: endTurn
+Player 0: 23
+Player 1: 24
+Player 2: 41
+turn: 112 
+player 1 turn
+player 1: endTurn
+Player 0: 23
+Player 1: 34
+Player 2: 47
+turn: 113 
+player 2 turn
+player 2 bought estate
+player 2 bought copper
+player 2: endTurn
+Player 0: 29
+Player 1: 34
+Player 2: 45
+turn: 114 
+player 0 turn
+player 0 bought estate
+player 0 bought copper
+player 0: endTurn
+Player 0: 36
+Player 1: 38
+Player 2: 45
+turn: 115 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 36
+Player 1: 47
+Player 2: 1
+turn: 116 
+player 2 turn
+player 2: endTurn
+Player 0: 42
+Player 1: 47
+Player 2: 13
+turn: 117 
+player 0 turn
+player 0: endTurn
+Player 0: 46
+Player 1: 48
+Player 2: 13
+turn: 118 
+player 1 turn
+player 1: endTurn
+Player 0: 46
+Player 1: 55
+Player 2: 16
+turn: 119 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 53
+Player 1: 55
+Player 2: 23
+turn: 120 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 53
+Player 1: 1
+Player 2: 23
+turn: 121 
+player 1 turn
+player 1: endTurn
+Player 0: 53
+Player 1: 8
+Player 2: 26
+turn: 122 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 4
+Player 1: 8
+Player 2: 27
+turn: 123 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 9
+Player 1: 8
+Player 2: 27
+turn: 124 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 9
+Player 1: 18
+Player 2: 29
+turn: 125 
+player 2 turn
+player 2: endTurn
+Player 0: 12
+Player 1: 18
+Player 2: 32
+turn: 126 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 22
+Player 1: 21
+Player 2: 32
+turn: 127 
+player 1 turn
+player 1: endTurn
+Player 0: 22
+Player 1: 34
+Player 2: 36
+turn: 128 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 27
+Player 1: 34
+Player 2: 40
+turn: 129 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 31
+Player 1: 47
+Player 2: 40
+turn: 130 
+player 1 turn
+player 1 bought estate
+player 1 bought copper
+player 1: endTurn
+Player 0: 31
+Player 1: 51
+Player 2: 46
+turn: 131 
+player 2 turn
+player 2 bought duchy
+player 2: endTurn
+Player 0: 34
+Player 1: 51
+Player 2: 45
+turn: 132 
+player 0 turn
+player 0 bought province
+player 0 bought copper
+player 0: endTurn
+Player 0: 44
+Player 1: 55
+Player 2: 45
+turn: 133 
+player 1 turn
+player 1: endTurn
+Player 0: 44
+Player 1: 55
+Player 2: 10
+turn: 134 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 55
+Player 1: 55
+Player 2: 15
+turn: 135 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 59
+Player 1: 62
+Player 2: 15
+turn: 136 
+player 1 turn
+player 1: endTurn
+Player 0: 59
+Player 1: 57
+Player 2: 19
+turn: 137 
+player 2 turn
+player 2 bought estate
+player 2: endTurn
+Player 0: 5
+Player 1: 57
+Player 2: 23
+turn: 138 
+player 0 turn
+player 0 bought feast
+player 0: endTurn
+Player 0: 20
+Player 1: 4
+Player 2: 23
+turn: 139 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 20
+Player 1: 4
+Player 2: 25
+turn: 140 
+player 2 turn
+player 2 bought gold
+player 2 bought copper
+player 2: endTurn
+Player 0: 26
+Player 1: 4
+Player 2: 28
+turn: 141 
+player 0 turn
+player 0: endTurn
+Player 0: 28
+Player 1: 16
+Player 2: 28
+turn: 142 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 28
+Player 1: 18
+Player 2: 28
+turn: 143 
+player 2 turn
+player 2: endTurn
+Player 0: 35
+Player 1: 18
+Player 2: 28
+turn: 144 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 36
+Player 1: 19
+Player 2: 28
+turn: 145 
+player 1 turn
+player 1: endTurn
+Player 0: 36
+Player 1: 29
+Player 2: 34
+turn: 146 
+player 2 turn
+player 2 bought silver
+player 2 bought copper
+player 2: endTurn
+Player 0: 37
+Player 1: 29
+Player 2: 38
+turn: 147 
+player 0 turn
+player 0 bought gold
+player 0 bought copper
+player 0: endTurn
+Player 0: 44
+Player 1: 45
+Player 2: 38
+turn: 148 
+player 1 turn
+player 1 bought silver
+player 1 bought copper
+player 1: endTurn
+Player 0: 44
+Player 1: 52
+Player 2: 39
+turn: 149 
+player 2 turn
+player 2: endTurn
+Player 0: 45
+Player 1: 52
+Player 2: 42
+turn: 150 
+player 0 turn
+player 0: endTurn
+Player 0: 51
+Player 1: 53
+Player 2: 42
+turn: 151 
+player 1 turn
+player 1: endTurn
+Player 0: 51
+Player 1: 65
+Player 2: 5
+turn: 152 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 64
+Player 1: 65
+Player 2: 5
+turn: 153 
+player 0 turn
+player 0 bought estate
+player 0: endTurn
+Player 0: 61
+Player 1: 66
+Player 2: 5
+turn: 154 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 61
+Player 1: 68
+Player 2: 12
+turn: 155 
+player 2 turn
+player 2: endTurn
+Player 0: 9
+Player 1: 68
+Player 2: 13
+turn: 156 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 13
+Player 1: 1
+Player 2: 13
+turn: 157 
+player 1 turn
+player 1: endTurn
+Player 0: 13
+Player 1: 13
+Player 2: 21
+turn: 158 
+player 2 turn
+player 2 bought estate
+player 2: endTurn
+Player 0: 14
+Player 1: 13
+Player 2: 23
+turn: 159 
+player 0 turn
+player 0 bought province
+player 0 bought copper
+player 0: endTurn
+Player 0: 31
+Player 1: 14
+Player 2: 23
+turn: 160 
+player 1 turn
+player 1: endTurn
+Player 0: 31
+Player 1: 24
+Player 2: 27
+turn: 161 
+player 2 turn
+player 2 bought duchy
+player 2: endTurn
+Player 0: 36
+Player 1: 24
+Player 2: 31
+turn: 162 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 42
+Player 1: 30
+Player 2: 31
+turn: 163 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 42
+Player 1: 40
+Player 2: 34
+turn: 164 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 42
+Player 1: 40
+Player 2: 42
+turn: 165 
+player 0 turn
+player 0: endTurn
+Player 0: 45
+Player 1: 40
+Player 2: 42
+turn: 166 
+player 1 turn
+player 1: endTurn
+Player 0: 45
+Player 1: 41
+Player 2: 43
+turn: 167 
+player 2 turn
+player 2 bought duchy
+player 2: endTurn
+Player 0: 55
+Player 1: 41
+Player 2: 51
+turn: 168 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 58
+Player 1: 43
+Player 2: 51
+turn: 169 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 58
+Player 1: 55
+Player 2: 51
+turn: 170 
+player 2 turn
+player 2: endTurn
+Player 0: 66
+Player 1: 55
+Player 2: 48
+turn: 171 
+player 0 turn
+player 0: endTurn
+Player 0: 71
+Player 1: 65
+Player 2: 48
+turn: 172 
+player 1 turn
+player 1 bought feast
+player 1: endTurn
+Player 0: 71
+Player 1: 66
+Player 2: 0
+turn: 173 
+player 2 turn
+player 2: endTurn
+Player 0: 3
+Player 1: 66
+Player 2: 12
+turn: 174 
+player 0 turn
+player 0: endTurn
+Player 0: 10
+Player 1: 75
+Player 2: 12
+turn: 175 
+player 1 turn
+player 1: endTurn
+Player 0: 10
+Player 1: 73
+Player 2: 14
+turn: 176 
+player 2 turn
+player 2 bought feast
+player 2: endTurn
+Player 0: 17
+Player 1: 73
+Player 2: 15
+turn: 177 
+player 0 turn
+player 0 bought gold
+player 0 bought copper
+player 0: endTurn
+Player 0: 20
+Player 1: 15
+Player 2: 15
+turn: 178 
+player 1 turn
+player 1 bought duchy
+player 1: endTurn
+Player 0: 20
+Player 1: 21
+Player 2: 16
+turn: 179 
+player 2 turn
+player 2: endTurn
+Player 0: 23
+Player 1: 21
+Player 2: 22
+turn: 180 
+player 0 turn
+player 0: endTurn
+Player 0: 36
+Player 1: 29
+Player 2: 22
+turn: 181 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 36
+Player 1: 37
+Player 2: 27
+turn: 182 
+player 2 turn
+player 2 bought duchy
+player 2: endTurn
+Player 0: 41
+Player 1: 37
+Player 2: 32
+turn: 183 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 47
+Player 1: 37
+Player 2: 32
+turn: 184 
+player 1 turn
+player 1: endTurn
+Player 0: 47
+Player 1: 46
+Player 2: 38
+turn: 185 
+player 2 turn
+player 2 bought estate
+player 2: endTurn
+Player 0: 60
+Player 1: 46
+Player 2: 40
+turn: 186 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 63
+Player 1: 46
+Player 2: 40
+turn: 187 
+player 1 turn
+player 1: endTurn
+Player 0: 63
+Player 1: 47
+Player 2: 41
+turn: 188 
+player 2 turn
+player 2 bought province
+player 2 bought copper
+player 2: endTurn
+Player 0: 64
+Player 1: 47
+Player 2: 49
+turn: 189 
+player 0 turn
+player 0: endTurn
+Player 0: 71
+Player 1: 54
+Player 2: 49
+turn: 190 
+player 1 turn
+player 1 bought duchy
+player 1: endTurn
+Player 0: 71
+Player 1: 54
+Player 2: 62
+turn: 191 
+player 2 turn
+player 2: endTurn
+Player 0: 80
+Player 1: 54
+Player 2: 61
+turn: 192 
+player 0 turn
+player 0 bought silver
+player 0 bought copper
+player 0: endTurn
+Player 0: 74
+Player 1: 63
+Player 2: 61
+turn: 193 
+player 1 turn
+player 1 bought gold
+player 1 bought copper
+player 1: endTurn
+Player 0: 74
+Player 1: 71
+Player 2: 3
+turn: 194 
+player 2 turn
+player 2 bought gold
+player 2 bought copper
+player 2: endTurn
+Player 0: 7
+Player 1: 71
+Player 2: 9
+turn: 195 
+player 0 turn
+player 0 bought duchy
+player 0: endTurn
+Player 0: 12
+Player 1: 73
+Player 2: 9
+turn: 196 
+player 1 turn
+player 1 bought province
+player 1 bought copper
+player 1: endTurn
+Player 0: 12
+Player 1: 87
+Player 2: 13
+Finished game.
+Player 0: 12
+Player 1: 87
+Player 2: 13
