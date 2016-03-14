@@ -1,0 +1,5 @@
+I found a bug relating to cardEffect and playCard. Using my card testers I was able to find that the way the two functions are implemented
+prevents the cards Salvager, Embargo, Minion, and any other card that adds coins to the players coin count from working properly. On 
+code inspection I found that the source of this error is that playCard calls updateCoins after running cardEffect and includes a bonus 
+that is supposed to be updated by cardEffect. However, almost none of the coin increasing cards actually change this variable and 
+instead add coins directly to the coin count, which is overwritten when updateCoins is called.
